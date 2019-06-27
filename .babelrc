@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime","transform-remove-strict-mode"],
+    "ignore":[  "./src/lib/mui/js/*.js"]
+}
